@@ -16,5 +16,5 @@ jobs:
     needs: 
       - call-workflow
     steps:
-      - run: echo "current time is $(needs.call-workflow.outputs.current-time)"
+      - run: echo "current time is $(jobs.call-workflow.outputs.current-time)"
       
