@@ -1,6 +1,7 @@
 # GitHub Actions Fundamentals
 
 Repo for the `GitHub Actions Fundamentals` training.
+This line was added to test action triggers!
 
 ## 👉 Objectives
 
