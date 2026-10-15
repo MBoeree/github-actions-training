@@ -23,5 +23,5 @@ jobs:
       image: docker://node:22-bookworm-slim
     steps:
       - run: |
-          node -version
+          node --version
           cat /etc/os-release 
